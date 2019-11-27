@@ -24,12 +24,34 @@ python web app with Flask and Pythonanywhere
   
 2. Description des actions réalisées
 
-  * Quelles étapes avez-vous suivi ?
+* Quelles étapes avez-vous suivi ?
   
     * L'archive du code a d'abord été récupéré ici : [Archive de flgaz](https://www.outofpluto.com/media/uploads/formation/python/flgaz-master.zip)
-  
+
     * Ensuite, une copie de l'archive flagz a été copié sur ce [repository](https://github.com/DyniW/flgaz/)
-    
+
     * Un compte a ensuite été créé sur [Pythonanywhere](https://www.pythonanywhere.com/registration/register/beginner/)
+
+    * En allant sur le Terminal accessible sur Pythonanywhere, un git clone de ce repository a été effectué pour héberger l'application sur notre site Pythonanywhere
+
+    * Ensuite il fallait changer les chemins pour que le site pointe bien sur l'app
+  
+* Quelles difficultés avez-vous rencontrées ?
+
+    * Il y a eu des difficultés sur le changement d'adresse, j'ai déplacé le projet à la
+    racine du site
+   
+3. Réflexions sur le projet
+
+    * Quels sont, selon vous, les aspects techniques limitants du projet FLGAZ dans l'état initial ?
     
-    * En allant sur le Terminal accessible sur Pythonanywhere, un git clone de ce repository a été effectué pour héberger l'application sur Pythonanywhere
+    A l'état initial, le projet n'a aucune gestion de sécurité comme la gestion de la persistance de données dans un fichier csv. 
+    
+    * Quelles sont, selon vous, les menaces auxquelles un tel projet peut être soumis ?
+    
+    On peut être soumis à plusieurs menaces telles que les attaques sur les informations
+    soumis dans le formulaire
+
+
+
+ 
